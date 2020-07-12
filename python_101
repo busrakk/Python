@@ -1,0 +1,73 @@
+~ Sayılar, Karakter Dizileri (Stringler) ve Değişkenler ~
+
+type() -> içerisine girilen nesne tipinin bilgisini verir.
+
+type(2)       ->  int tipinde
+type(2.5)     ->  float tipinde
+type("hello") ->  str tipinde
+type("12")    ->  str tipinde (tırnak işareti olduğu için str kabul edilir.)
+
+ 
+# -> yorum satırı yapmak için kullanırız.
+
+
+"a" + "b"   ->  'ab'   (karakter dizilerini bir araya getirmek için "+" ) 
+"a" * 3     ->  'aaa'  (karakter dizilerini bir araya getirip çoğaltmak için "*" )
+
+
+len() -> verilen ifadenin boyutunu verir.
+
+
+upper() & lower()  -> string ifadeyi komple büyük ya da küçük hale getirmek için kullanılır.
+
+a = "Busra"
+a.lower()  ->  'busra'
+a.upper()  ->  'BUSRA'
+
+
+islower() -> İfade küçükse "TRUE" döndürür, değilse "FALSE" döndürür.
+isupper() -> İfade büyükse "TRUE" döndürür, değilse "FALSE" döndürür.
+
+
+
+replace() ->  Stringlerde karakterlerle ilgili değişiklikler yapmak için kullanılır.
+
+
+veri ="programlama"
+veri.replace("a", "o")  ->  'progromlomo'
+
+
+strip() ->  istenmeyen karakterleri kırpmak için kullanılır.
+dir()   ->  veri tipinin üzerinde uygulanacak metotları görmek için kullanılır.
+
+
+substring -> string ifadelerin alt kümesini almak,yani bileşenlerine erişmek için kullanılır.
+
+veri ="programlama"
+veri[0]      ->  'p'
+veri[0:7]    ->  'program'
+veri[4:7]    ->  'ram'
+
+
+input  -> kullanıcıdan bilgi almak için kullanılır.
+print  -> ekrana yazdırmak için kullanılır.
+
+*Fonksiyonların genel amaçlarını biçimlendirmek için kullanılan alt görev belirteçlere "argüman" denir.
+"sep" bir argümandır.
+
+print("programlama","dilleri", sep = "*")  -> programlama*dilleri
+
+
+
+** Fonksiyonların detaylı bilgilerine erişmek istersek;
+?print
+bu şekilde yazarak konsolumuzda detaylı özelliklerine erişebiliriz.
+
+
+
+
+
+
+
+	   
+	   

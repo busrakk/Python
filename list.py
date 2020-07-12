@@ -1,6 +1,6 @@
-list = [ "a", "b","c", "d" ]
+list = [ "a", "b", "c", "d" ]
 
-#eğer ataması yapma
+#değer ataması yapma
 list[1]= "e"
 list
 
@@ -89,7 +89,6 @@ list
 #liste içini temizleme
 list.clear()
 list
-
 
 
 

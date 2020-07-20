@@ -3,7 +3,7 @@ while True :
     
     parola = input("Bir Parola Belirleyin: ")
     
-    #döngünün  etmesi için continue ..
+    #döngünün devam etmesi için continue ..
     if not parola:
         print("Parola Kısmı Boş Geçilmez !!")
         continue

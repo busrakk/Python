@@ -20,3 +20,5 @@ while(sayac < adet):
 
 for urun in urunler :
     print(f'ürün adı : {urun["name"]} ürün fiyatı : {urun["price"]}')
+          
+          

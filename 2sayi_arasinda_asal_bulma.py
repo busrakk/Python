@@ -1,4 +1,4 @@
-# 2 sayı arasında tüm asalları bula
+# 2 sayı arasında tüm asalları bulma
 
 def asalSayilariBul(sayi1, sayi2):
     #sayi2 de döngüye katmak için +1 
@@ -14,3 +14,5 @@ sayi1 = int(input('1. sayi : '))
 sayi2 = int(input('2. sayi : '))
 
 asalSayilariBul(sayi1, sayi2)
+
+
